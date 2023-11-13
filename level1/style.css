@@ -1,0 +1,690 @@
+
+body{
+  background: #FFF9F2;
+  display: block;
+  height: 60px;
+  overflow-x:hidden ;
+}
+
+
+
+.header{
+   background: rgb(255, 255, 255);
+   border-bottom: 3px solid rgb(243, 242, 242);      
+   
+   
+}
+.navbar{
+    padding: 15px 20px;
+}
+.link{
+    color: rgb(87, 3, 3);
+    font-weight: 400;
+    
+
+}
+.mobileNav .nav-link:hover{
+    color: #6D1830;
+   border-bottom: 3px solid  #6D1830;
+ 
+   
+}
+.navbar .active{
+    font-weight: bold;
+    border-bottom: 3px solid  #6D1830;
+    width:100%; 
+    color: #6D1830;
+}
+.headerBtn{
+    background: #6D1830;
+    color: white;
+    font-size: 12px;
+   
+}
+.headerBtn:hover{
+    background: #300511;
+}
+
+
+.hero{
+    margin-top: 100px;
+    
+}
+.heroTxt{
+    margin-top: 60px;
+    
+}
+.herobtn{
+    display: flex;
+}
+.heroDownloadBtn{
+    background: #6D1830;
+    color: white;
+    font-size: 13px;
+    padding: 15px 20px;
+   
+}
+.heroDownloadBtn:hover{
+    background: #29020d;
+}
+.partnersLogo{
+    background: #FFFFFF;
+}
+.partnersLogo img{
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+
+
+.phonepixTxt{
+    margin-top: 100px;
+    
+    
+}
+.phonepixTxtP p{
+    font-size: 12px;
+}
+
+.introToNerf{
+    margin-top: 200px;
+    background: rgb(2, 33, 51);
+    height:300px; 
+    padding: 35px 20px 20px 20px;
+   
+}
+
+.introToNerf img{
+    margin-top: -170px;
+}
+.extendedPhone{
+    width: 80%;
+    margin: 0 auto;
+}
+.introToNerfBtn,.redefineSpacefBtn{
+    background: #fff;
+   
+}
+.introToNerfBtn:hover{
+    background: #d4bbc6;
+    cursor: pointer;
+
+}
+.crossPhoneMobile{
+    display: none;
+}
+
+
+
+.horizontalRule{
+    margin-top: 180px;
+}
+
+.bestFeature .list{
+    margin-top: 30px;
+}
+.bestFeature .list p{
+    margin-top: -10px;
+}
+.bestFeatureContain{
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-top: 3px solid #6D1830;
+    border-right: 3px solid #6D1830;
+}
+
+
+.interactive,.seamlessIntegration,.topNotch{
+    background: white;
+    border-radius: 10px;
+    border-top: 3px solid #6D1830;
+    border-right: 3px solid #6D1830;
+}
+
+.topNotchTxt{
+    margin-top:  30px;
+}
+
+.redefine{
+    background:#143548 ;
+    color: white;  
+}
+.redefine button:hover{
+    background: #d4bbc6;
+    cursor: pointer;
+}
+.redefineTxt{
+    padding: 20px;
+    margin-top: 120px;
+    margin-right: 100px;
+}
+
+
+.easyAndSimple{
+    margin-top:100px;
+}
+
+
+.newsLetter{
+    background:#6D1830;
+    color: white;
+    padding: 30px;
+}
+
+.inputForm  input{
+    width:79%;
+    padding: 7px;
+    outline: none;
+}
+.inputForm button{
+    padding: 7px;
+    color: #300511;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.linksAndGoogleApp{
+    padding: 30px 0;
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer{
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+
+
+@media (min-width:979px){
+    .bestFeatureTxt{
+        width: 60%;
+    }
+    .bestFeature .img-thumbnail {
+        width: 50% ;
+    }
+    .topNotchTxt{
+        margin-top: 100px;
+    }
+    .topNotchTxt p{
+        width: 60%;
+    }
+    
+}
+
+@media (max-width:979px){
+    .hero{
+        margin-top: 100px;
+    }
+    .heroTxt{
+        margin-top: -10px;
+    }
+    .heroImg{
+        margin-top: 30px;
+    }
+    .phonepixTxt{
+        margin-top: 0px;
+    }
+    .bestFeature .img-thumbnail {
+        width: 50% ;
+    }
+    .redefineTxt{
+        padding: 20px;
+        margin-top: 80px;
+        margin-right: 100px;
+    }
+    .inputForm button{
+        margin-top:10px;
+    }
+   }
+
+@media(max-width:990px){
+    
+    .introToNerf img{
+        margin-top: -85px;
+    }
+    .extendedPhoneTxt{
+        margin-top: -40px;
+    }
+}
+
+@media(max-width:767px){
+
+    .header{
+        background: rgb(255, 255, 255);
+        border-bottom: 3px solid rgb(243, 242, 242);      
+     }
+     .mobileNav .nav-link:hover{
+             width: 17%; 
+    }
+    .navbar .active{
+        font-weight: bold;
+        color: #6D1830;
+        border-bottom: 3px solid  #6D1830;
+        width:17%; 
+    }
+     .heroTxt{
+       padding-top: 50px;
+     }
+    .introToNerf{
+        margin-top: 60px;
+        height: 740px;
+        padding: 0;
+    }
+    .introToNerf img{
+        margin-top: 50px;
+    }
+    .extendedPhoneTxt{
+        margin-top:20px;
+    }
+    .crossPhoneAll{
+        display: none;
+    }
+    .crossPhoneMobile{
+        background: url(img/Yesphone5.png);
+        background-size: cover;
+        margin-top: 121px;
+        height: 70vh;
+        display: block;
+        background-repeat: no-repeat;
+    }
+    .seamlessIntegration{
+        margin-top: 30px;
+    }
+    .redefineTxt{
+        padding: 20px;
+        width: 60%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 60px;
+   
+    }
+    .easyTxt{
+        margin-top: 40px;
+    }
+    .navbar{
+       padding-bottom: 30px;
+        }
+    .headerBtn{
+       display: none;
+    }
+    .brandLogo{
+        display: none;
+    }
+ 
+ 
+}
+
+@media (max-width:765px){
+    .hero{
+        margin-top: 30px;
+    }
+    .heroTxt{
+        margin-top: 60px;
+    }
+    .herobtn{
+        display: block;
+    }
+    .extendedPhoneTxt{
+        margin-top:50px;
+    }
+    .crossPhoneMobile{
+        background-size: cover;
+        margin-top: 100px;
+        height: 68vh;
+        display: block;
+        background-repeat: no-repeat;
+    }
+     .redefineTxt{
+        padding: 20px;
+        width: 50%;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 50px;
+    } 
+ }
+
+@media(max-width:575px) {
+    .heroTxt{
+        text-align: center;
+    }
+    .bestFeature .img-thumbnail {
+        width: 50% ;
+    }
+    .extendedPhoneTxt{
+        margin-top:50px;
+    }
+    .horizontalRule{
+        display: none; 
+    }
+    .redefineTxt{
+        padding: 20px;
+        width: 60%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .inputForm button{
+        margin-left: 0px;
+    }
+    .footer{
+        display: block;
+        height: 200px;
+    }
+    .footer p{
+        font-size: 14px;
+    }
+    .footerGroup{
+        margin-top: 50px;
+    }
+    .footerTxt{
+        margin-top: 30px;
+    }
+    .linksAndGoogleApp{
+        display: block;
+    }
+    .linksGroupGoogleApp{
+        margin-top: 30px;
+    }
+      .amaraTxt{
+        margin-left: 0px;
+      }
+   }
+
+@media(width:375px) {
+    .crossPhoneMobile{
+        background: url(img/Yesphone5.png);
+        background-size: cover;
+        margin-top: 100px;
+        height: 46.5vh;
+        display: block;
+        background-repeat: no-repeat;
+    }
+    .topNotch{
+        margin-top: -40px;
+    }
+    .redefineTxt{
+        padding: 20px;
+        width: 80%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.testimonies .card:hover{
+    background: #fff0f4;
+    
+}
+.aboutViewSection{
+    padding-top: 50px;
+    background: rgb(2, 33, 51);
+    color:#fff;
+}
+
+.containerMe{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.aboutViewLogo{
+    float: right;
+    display: flex;
+}
+.ourMissionWrap{
+    width: 58%;
+    margin: 0 auto;
+}
+.ourMissionWrap p{
+    font-size: 17px;
+}
+
+
+
+
+
+
+@media (min-width:979px){
+    .accordioStructure{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media(width:375px) {
+    .ourMissionWrap{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .heroLogoImg{
+        display: none;
+    }
+    .accordioStructure{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blogBackground{
+    background: white;
+}
+
+.articleShowscase p{
+    font-size: 13px;
+}
+.showcaseCol{
+    margin-top: -20px;
+}
+.pagination li a{
+    color: #700624;
+}
+.pagination li a:hover{
+    color: #d83563;
+}
+.featuredArticle h2{
+    color: #700624;
+}
+.featuredArticle h2:hover{
+    color: #d83563;
+}
+.featuredArticle h3:hover{
+    color: rgb(5, 5, 82);
+}
+
+
+
+.DEstatecontainer{
+    width: 85%;
+    margin: 0 auto;
+}
+.imgCaption p, h3{
+    cursor: pointer;
+}
+
+.imgCaption p:hover{
+ color: #d83563;
+}
+.imgCaption h3:hover{
+ color: rgb(5, 5, 82);
+}
+.captionTxt  ul{
+    list-style: decimal;
+    margin-left: -15px;
+}
+.captionTxt p{
+    text-align: justify;
+}
+.amaraGroup{
+    width: 80%;
+    margin: 0 auto;
+}
+ .amaraTxt p{
+    font-size: 14px;
+ }
+ .amaraTxt .icons img{
+    margin-right: 20px;
+    margin-top: -20px;
+ }
+ .amaraProfile{
+    background: #FFF9F2;
+    padding: 40px 0;
+}
+.articleShowscaseHeaderAndBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.articleBtn{
+    border: 2px solid #700624;
+    background:white; 
+    font-weight: bold;
+    color:#700624;
+}
+
+
+
+
+
+
+@media (min-width:979px){
+     .amaraGroup{
+        display: flex;
+   }
+   .amaraTxt{
+    margin-left: 30px;
+   }  
+}
+
+@media (max-width:979px){
+    .amaraGroup{
+        display:flex;
+    }
+}
+
+@media (max-width:767px){
+    .DEstatecontainer{
+        width: 100%;
+     
+    }
+    .amaraTxt{
+        margin-left: 0px;
+      }
+      .amaraGroup{
+        display: block;
+    }
+    .articleShowscaseHeaderAndBtn{
+        display: block;
+        margin-left: 30px;
+        margin-bottom: 20px; 
+    }
+    .aboutViewLogo {
+        display: none;
+    }
+    
+}
+
+@media (max-width:375px){
+    
+    .blogCardPix{
+        height: 200px;
+    }
+    .amaraGroup{
+        display: block;
+    }
+    .amaraTxt{
+        margin-left: 0px;
+      }
+    
+}
+
+
+
+
+
+
+.preferToReach .card:hover{
+    background: #fff0f4;
+}
+
+.contactHero .aboutViewTxt{ 
+    width: 75%;
+}
+.fullNameEmailGroup{
+    display: flex;
+    gap: 70px;
+}
+.fullNameEmailGroup input{
+    width: 120%;
+}
+.formSubmit{
+  background: #6D1830; ;
+color: white;
+}
+
+
+
+
+
+@media (max-width:767px){
+    .fullNameEmailGroup{
+        display: block;
+    }
+    .fullNameEmailGroup input{
+        width: 100%;
+    }
+    .formGroupImg{
+        display: none;
+    }
+    .contactHero .aboutViewTxt{ 
+    width: 95%;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+.questionMark{
+    background: rgb(2, 33, 51);    background: rgb(2, 33, 51);
+    color: white;
+}
